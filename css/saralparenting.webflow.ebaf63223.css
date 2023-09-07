@@ -92,18 +92,18 @@ blockquote {
 
 .hero-section {
   width: 100%;
-  height:93vh;
+  height:94vh;
   padding-right:7%;
   padding-left: 7%;
   padding-top:8%;
   padding-bottom: 7%;
   background-color: white;
-  background: url('/MYIMAGES/s4W54SWzQPKWGTIB8cbi_fernando-dearferdo-6x2iKGi6SPU-unsplash.jpg');
+  background: url('/MYIMAGES/pexels-katerina-holmes-5907594-fotor-20230905135634-fotor-20230907122236.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-position: 30% 10%;
+  background-position: 90% 0%;
   position: relative;
 }
 
@@ -115,7 +115,7 @@ height: 100%;
 
 .hero-content-wrapper {
   
- width:540px;
+ width:593px;
   height:150px;
   margin-top: 60px;
   padding-left: 20px;
@@ -2253,22 +2253,23 @@ section{
 }
 
 .swiper-pagination-bullet{
+ 
   height: 7px;
   width: 26px;
   border-radius: 25px;
-   background: #000;
+   background: #4cc49c;
 }
 
 
-.swiper-button-next, .swiper-button-prev{
+.swiper-button-next, .swiper-button-prev {
   opacity: 0.6;
-  color:black;
+  color:white;
   transition: all 0.3s ease;
 }
 
 .swiper-button-next:hover, .swiper-button-prev:hover{
   opacity: 1;
-  color:black ;
+  color:white ;
   
 }
 
@@ -2341,6 +2342,10 @@ top:37px;
   border-left: 2px solid #4cc49c;
   animation: animate 4s steps(12) infinite;
 }
+.text.first-text:before{
+  content: "";
+  animation: animate 4s steps(12) infinite;
+}
 
 
 @keyframes animate{
@@ -2351,6 +2356,8 @@ top:37px;
      left:0%;
   }
 }
+
+
 
 
 
@@ -2426,6 +2433,41 @@ top:37px;
 
 
 
+
+
+.summary-square{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+.hero3{
+  background:url('/MYIMAGES/pexels-zen-chung-5529572-fotor-2023090520457.png');
+  background-position: 10% 1%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.summary-square2{
+     margin-left: 54%;
+     padding: 3%;
+    background-color: white;
+    width: 45%;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.summary-square2 p1{
+  color: #000;
+  
+}
+
+
+
+
+
+
 @media screen and (max-width: 850px) {
 
 
@@ -2434,7 +2476,8 @@ top:37px;
     flex-direction: column;
     width: 100%;
     height: auto;
-    background-position: 51% 40%;
+    background-image: url('/MYIMAGES/pexels-katerina-holmes-5907597.jpg');
+    background-position: 20% 1%;
     background-attachment: fixed;
   }
   
@@ -2462,7 +2505,7 @@ top:37px;
   background: #000;
 }
 .typeeffect{
-  width:50%;
+  width:80%;
   height: auto; 
   background: #000;
   
@@ -2484,10 +2527,12 @@ top:37px;
   padding-top: 0%;
   border-radius: 10px;
   padding-bottom: 10%;
-  width: 72%;
+  width: 65%;
   height: auto;
 }
-
+.hero3{
+  background-position: 40%;
+}
 }
 
 .w-icon-nav-menu{
@@ -2513,6 +2558,8 @@ top:37px;
     padding-top: 0%;
     height: 90%;
     margin-top: 0%;
+    
+  
     flex-direction: column;
    }
 
@@ -2527,7 +2574,7 @@ top:37px;
   flex-direction: column;
 }
 .typeeffect{
-  width:50%;
+  width:56%;
   height: auto; 
   background: #000;
   
@@ -2542,6 +2589,18 @@ top:37px;
   font-size: 20px;
   
 }
+.testiniom-card{
+  position: relative;
+  width: 70%;
+  height: auto;
+}
+
+.swiper-wrapper{
+  
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .hero-flex-wrapper{
   background-color: #000;
@@ -2550,7 +2609,8 @@ top:37px;
   border-radius: 10px;
   padding-bottom: 20%;
   margin-bottom: 5%;
-  width: 74%;
+  margin-left: 6%;
+  width: 88%;
   height: auto;
 } 
 
@@ -2565,6 +2625,16 @@ top:37px;
   width:88%;
   align-items: center;
   
+}
+
+.summary-square2{
+  margin-left: 12%;
+ width: 75%;
+ text-align: center;
+}
+
+.hero3{
+  background-position: 25%;
 }
 
 }
@@ -2647,3 +2717,60 @@ background-color: white;
      position: 50% 50%;
    }
 
+   .emp{
+    color: rgb(173,131,106);
+  }
+
+   .techb{
+    color: rgb(59,85,106);
+   }
+
+   .wlb{
+    color: rgb(115,146,143);
+    
+
+   }
+
+   .pd{
+  
+    color:rgb(120,128,159);
+    
+
+   }
+
+   .hero2 img{
+    margin-right: 12%;
+    margin-left: 1%;
+    border-radius: 7%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+
+   .program-section .h3{
+    color: #4cc49c;
+   }
+
+
+    
+   .rev.swiper-pagination-bullet{
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+     background:black;
+  }
+  
+  
+  #reviews  .swiper-button-next, #reviews .swiper-button-prev{
+    opacity: 0.6;
+    color:black;
+    transition: all 0.3s ease;
+  }
+  
+  #reviews  .swiper-button-next:hover, #reviews.swiper-button-prev:hover{
+    opacity: 1;
+    color:black;
+    
+  }
+  
+.program-section.testiniom-card{
+  box-shadow: white 0px 10px 10px 0px ;
+}
