@@ -1184,9 +1184,10 @@ font-family: 'Poppins', sans-serif;
   text-align: left;
 }
 
-.h3.less-bottom-margin {
+.h3.less-bottom-margin,#reviews a {
   margin-bottom: 5px;
   color: #ed5167;
+  text-align: center;
 }
 
 .h4 {
@@ -2347,7 +2348,7 @@ line-height: 1.25;
   padding-top: 10%;
   top: 10;
   left: 0;
-  height: 90%;
+  height: 50%;
   width: 100%;
   background-color:black;
   border-left: 2px solid #4cc49c;
@@ -2587,7 +2588,7 @@ line-height: 1.25;
   flex-direction: column;
 }
 .typeeffect{
-  width:70%;
+  width:100%;
   height: auto; 
   background: #000;
   
@@ -2600,6 +2601,7 @@ line-height: 1.25;
 
 .typeeffect .first-text {
   font-size: 20px;
+  margin-left: 3%;
 }
 .typeeffect .zero {
   font-size: 20px;
@@ -2621,7 +2623,7 @@ line-height: 1.25;
   padding-bottom: 20%;
   margin-bottom: 5%;
   margin-left: 6%;
-  width: 88%;
+  width: 90%;
   height: auto;
 } 
 
@@ -2815,7 +2817,8 @@ background-color: white;
 }
 
 p4{
-  color:white;
+  color:#4cc49c;
+  
   background-color: #000;
   padding: auto;
   margin: auto;
@@ -2831,7 +2834,7 @@ p4{
 
 
 .hero-content-wrapper{
-  height: 72%;
+  height: 74%;
   padding: auto;
 }
 
